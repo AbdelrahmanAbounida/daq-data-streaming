@@ -1,0 +1,615 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      The target system is: Linux -  - x86_64
+      The host system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crt1.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crti.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtbegin.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtend.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtn.o: No such file or directory
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/NI_Real-time/build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crt1.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crti.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtbegin.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lstdc++: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lm: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find -lgcc: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtend.o: No such file or directory
+      C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe: cannot find crtn.o: No such file or directory
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/NI_Real-time/build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-lnzhty"
+      binary: "C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-lnzhty"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-lnzhty'
+        
+        Run Build Command(s): C:/PROGRA~2/NINJA-~1/ninja.exe -v cmTC_9828e
+        [1/2] C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux   -v -o CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe
+        Target: x86_64-nilrt-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/cc1.exe -quiet -v -iprefix C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ -isysroot C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9828e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccABWBPj.s
+        GNU C17 (GCC) version 13.3.0 (x86_64-nilrt-linux)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"
+        ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/include"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../include"
+        ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed
+         C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include
+        End of search list.
+        Compiler executable checksum: fe3a42dd9f6d12880d3023082365b86b
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/as.exe -v --64 -o CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccABWBPj.s
+        GNU assembler version 2.42.0 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.42.0.20240723
+        COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/
+        LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux  -v -Wl,-v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -o cmTC_9828e   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe
+        Target: x86_64-nilrt-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/
+        LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_9828e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9828e.'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccAVpmfo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_9828e C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+        collect2 version 13.3.0
+        C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccAVpmfo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_9828e C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+        GNU ld (GNU Binutils) 2.42.0.20240723\x0d
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_9828e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9828e.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+          add: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+          add: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        end of search list found
+        collapse include dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        implicit include dirs: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-lnzhty']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/PROGRA~2/NINJA-~1/ninja.exe -v cmTC_9828e]
+        ignore line: [[1/2] C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux   -v -o CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe]
+        ignore line: [Target: x86_64-nilrt-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/']
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/cc1.exe -quiet -v -iprefix C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ -isysroot C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9828e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccABWBPj.s]
+        ignore line: [GNU C17 (GCC) version 13.3.0 (x86_64-nilrt-linux)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"]
+        ignore line: [ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: fe3a42dd9f6d12880d3023082365b86b]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/']
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/as.exe -v --64 -o CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccABWBPj.s]
+        ignore line: [GNU assembler version 2.42.0 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.42.0.20240723]
+        ignore line: [COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/]
+        ignore line: [LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux  -v -Wl -v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -o cmTC_9828e   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-nilrt-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/]
+        ignore line: [LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_9828e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9828e.']
+        link line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccAVpmfo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_9828e C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+          arg [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccAVpmfo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9828e] ==> ignore
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o]
+          arg [-LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc] ==> dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccAVpmfo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_9828e C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_9828e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+        linker tool for 'C': C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtbegin.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtend.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtbegin.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtend.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+        implicit dirs: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the C compiler's linker: "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.42.0.20240723
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-1cophj"
+      binary: "C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-1cophj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-1cophj'
+        
+        Run Build Command(s): C:/PROGRA~2/NINJA-~1/ninja.exe -v cmTC_7ef2d
+        [1/2] C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux   -v -o CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe
+        Target: x86_64-nilrt-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/cc1plus.exe -quiet -v -iprefix C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ -isysroot C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux -D_GNU_SOURCE C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7ef2d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccwR54WQ.s
+        GNU C++17 (GCC) version 13.3.0 (x86_64-nilrt-linux)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"
+        ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/include"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../include"
+        ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed"
+        ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed
+         C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0
+         C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux
+         C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward
+         C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include
+        End of search list.
+        Compiler executable checksum: 125a92c3f39b5757694564414e2265f2
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/as.exe -v --64 -o CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccwR54WQ.s
+        GNU assembler version 2.42.0 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.42.0.20240723
+        COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/
+        LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/\x0d
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux  -v -Wl,-v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7ef2d   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe
+        COLLECT_LTO_WRAPPER=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe
+        Target: x86_64-nilrt-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/
+        LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_7ef2d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ef2d.'
+         C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccyixbnW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_7ef2d C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+        collect2 version 13.3.0
+        C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccyixbnW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_7ef2d C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+        GNU ld (GNU Binutils) 2.42.0.20240723
+        COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_7ef2d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ef2d.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+          add: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+          add: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0]
+          add: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux]
+          add: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward]
+          add: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        end of search list found
+        collapse include dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward]
+        collapse include dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        implicit include dirs: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/NI_Real-time/build/CMakeFiles/CMakeScratch/TryCompile-1cophj']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/PROGRA~2/NINJA-~1/ninja.exe -v cmTC_7ef2d]
+        ignore line: [[1/2] C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux   -v -o CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe]
+        ignore line: [Target: x86_64-nilrt-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/']
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/cc1plus.exe -quiet -v -iprefix C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ -isysroot C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux -D_GNU_SOURCE C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7ef2d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccwR54WQ.s]
+        ignore line: [GNU C++17 (GCC) version 13.3.0 (x86_64-nilrt-linux)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"]
+        ignore line: [ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/../../../../../x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/../../../../../../../x86_64-nilrt-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/include-fixed]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/x86_64-nilrt-linux]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include/c++/13.3.0/backward]
+        ignore line: [ C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 125a92c3f39b5757694564414e2265f2]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/']
+        ignore line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/as.exe -v --64 -o CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccwR54WQ.s]
+        ignore line: [GNU assembler version 2.42.0 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.42.0.20240723]
+        ignore line: [COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/]
+        ignore line: [LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux  -v -Wl -v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7ef2d   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\build\\2025Q1\\x64\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\x86_64-nilrt-linux\\x86_64-nilrt-linux-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-nilrt-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=x86_64-nilrt-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot-native/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/rfmibuild/myagent/_work/_r/3/src/rtos/rtostoolchaind/rtos_cross_toolchain/objects/build.x64/tmp-glibc/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-x86-64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-nls --enable-initfini-array --enable-__cxa_atexit --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/]
+        ignore line: [LIBRARY_PATH=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/]
+        ignore line: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux' '-v' '-o' 'cmTC_7ef2d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ef2d.']
+        link line: [ C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccyixbnW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_7ef2d C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+          arg [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccyixbnW.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7ef2d] ==> ignore
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o]
+          arg [-LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc] ==> dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+          arg [-LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib] ==> dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o]
+          arg [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe -plugin C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/liblto_plugin.dll -plugin-opt=C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\SCHMID~1.EMA\\AppData\\Local\\Temp\\ccyixbnW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_7ef2d C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0 -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib -LC:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib -v CMakeFiles/cmTC_7ef2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+        linker tool for 'CXX': C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtbegin.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtbegin.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0/crtend.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtend.o]
+        collapse obj [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/bin/x86_64-nilrt-linux/../../lib/x86_64-nilrt-linux/gcc] ==> [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib]
+        collapse library dir [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib] ==> [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtbegin.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0/crtend.o;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+        implicit dirs: [C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0;C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/lib/x86_64-nilrt-linux/gcc;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/lib;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/13.3.0;C:/build/2025Q1/x64/sysroots/core2-64-nilrt-linux/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/build/2025Q1/x64/sysroots/x86_64-w64-mingw32/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/13.3.0/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.42.0.20240723
+...
