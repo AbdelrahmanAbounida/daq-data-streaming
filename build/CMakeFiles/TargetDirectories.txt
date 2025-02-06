@@ -1,3 +1,0 @@
-C:/NI_Real-time/build/CMakeFiles/helloWorld.dir
-C:/NI_Real-time/build/CMakeFiles/edit_cache.dir
-C:/NI_Real-time/build/CMakeFiles/rebuild_cache.dir

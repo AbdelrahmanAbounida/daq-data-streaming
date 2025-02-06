@@ -1,6 +1,0 @@
-# ninja log v6
-4	78	7597708715583704	CMakeFiles/helloWorld.dir/C_/NI_Real-time/src/helloWorld.c.o	df9ff82ea25bc3c6
-79	153	7597708716339264	bin/helloWorld	d7a1bc413211426b
-3	13	7597779378186657	clean	33335e0bb6420868
-4	75	7597780029149181	CMakeFiles/helloWorld.dir/C_/NI_Real-time/src/helloWorld.c.o	df9ff82ea25bc3c6
-76	149	7597780029894673	bin/helloWorld	d7a1bc413211426b
